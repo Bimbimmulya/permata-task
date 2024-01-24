@@ -13,24 +13,20 @@ import {
 
 export const navLink = [
   {
-    id: "home",
+    id: "Home",
     name: "Home",
   },
   {
-    id: "feature",
-    name: "Feature",
+    id: "Value",
+    name: "Value",
   },
   {
-    id: "pricing",
-    name: "Pricing",
+    id: "Blog",
+    name: "Blog",
   },
   {
-    id: "reward",
-    name: "Reward",
-  },
-  {
-    id: "healt",
-    name: "Health",
+    id: "Contact",
+    name: "Contact",
   },
 ];
 

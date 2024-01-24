@@ -1,8 +1,8 @@
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Sick from "./components/Sick";
-import Step from "./components/Step";
+import Blog from "./components/Blog";
+import OurValue from "./components/OurValue";
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <div className="overflow-hidden"> 
      <Navbar/> 
      <Home/>
-     <Step/>
-     <Sick/>
+     <OurValue/>
+     <Blog/>
      <Footer/>
     </div>
   );

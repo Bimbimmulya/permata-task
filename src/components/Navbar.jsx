@@ -33,8 +33,8 @@ const Navbar = () => {
             <li className="flex gap-x-4">
                 {navLink.map((item) => {
                     return (
-                    <Link className="hover:text-orange text-sm md:text-md cursor-pointer" 
-                    to={item.id} key={item.id}>{item.id}</Link>
+                    <Link key={item.id} className="hover:text-orange text-sm md:text-md cursor-pointer" 
+                    to={item.id} >{item.id}</Link>
                     )
                 })}
             </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <div>
             <button className="px-6 lg:px-8 py-2 bg-white text-sm 
-            outline-none hover:bg-orange hover:text-white rounded-full">
+            outline-none hover:bg-blue hover:text-white rounded-full">
               Sign In
             </button>
         </div>

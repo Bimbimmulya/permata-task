@@ -8,12 +8,11 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-3 md:flex-1">
         <h1 className="text-[16px] font-bold text-orange">
-          SECURE YOUR HEALTH
+        Dapatkan Konsultasi Gratis
         </h1>
-        <h1 className="text-2xl font-bold">Dwonload Your App</h1>
+        <h1 className="text-2xl font-bold">Dwonload App</h1>
         <p className="text-text text-[14px]">
-          We develop an app to allow you to improve your health better in the
-          great way
+            Kami siap siaga menjadi solusi Bisnis Anda.
         </p>
         <div className="w-full h-[50px] lg:h-[70px] flex ">
           <img src={apps} alt="" className="w-[300px] h-full " />

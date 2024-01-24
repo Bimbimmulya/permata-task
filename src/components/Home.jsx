@@ -10,11 +10,11 @@ const Home = () => {
         <h1 className="text-[30px] md:text-[40px] lg:text-[50px] font-bold">
         Jasa Pembuatan Website Murah dan Terpercaya
         </h1>
-        <p className="text-text text-[14px] lg:text-[18px]">
+        <p className="text-[14px] lg:text-[18px]">
         Realisasikan impian bisnismu dengan desain website profesional dengan harga murah! Temukan paket pembuatan website yang sesuai dengan kebutuhan bisnismu.
         </p>
         <div>
-          <button className="py-2 px-8 bg-orange rounded-full">
+          <button className="py-2 px-8 bg-blue text-white rounded-full">
           Konsultasi Sekararang
           </button>
         </div>
