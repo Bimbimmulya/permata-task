@@ -3,11 +3,11 @@ import { features } from "../data/dummy";
 const Step = () => {
   return (
     <div className="w-full h-auto px-5 lg:px-[72px] flex flex-col gap-5 mt-4">
-      <h1 className="font-bold text-[16px] lg:text-[20px] text-orange">
-        3 STPES QUICK
+      <h1 className="font-bold text-[24px] lg:text-[30px] text-orange">
+        Mengapa Kamu Harus Memiliki Website Sendiri? 🤷‍♀️
       </h1>
-      <h1 className="font-bold text-2xl lg:text-[30px]">
-        Claim Your Better Health
+      <h1 className="text-2xl lg:text-[16px]">
+      Di era digital yang terus berkembang, memiliki kehadiran online adalah suatu keharusan. Dalam dunia yang semakin terhubung ini, website adalah kunci untuk memanfaatkan peluang, menciptakan identitas online, dan menghubungkan diri dengan khalayak yang lebih luas. Mari kita bahas mengapa memiliki website adalah langkah yang penting untuk kesuksesan bisnis kamu.
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {features.map((item, i) => {

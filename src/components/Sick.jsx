@@ -1,4 +1,5 @@
 import Slider from "react-slick"
+import { sakit } from "../data/dummy";
 
 const Sick = () => {
     var settings = {
@@ -38,30 +39,17 @@ const Sick = () => {
       return (
         <div className="my-5">
           <Slider {...settings}>
-            <div>
-              <h3>1</h3>
-            </div>
-            <div>
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
-            </div>
-            <div>
-              <h3>7</h3>
-            </div>
-            <div>
-              <h3>8</h3>
-            </div>
+            {sakit.map((item) => {
+              return (
+                <div className="p-2 flex">
+                  <img src={item.image} alt="Ruang Engineer" className="mb-5 rounded-md"/>
+                  <div>
+                    <h1 className="font-bold">{item.title}</h1>
+                    <p>{item.category}</p>
+                  </div>
+                </div>
+              )
+            })}
           </Slider>
         </div>
       );

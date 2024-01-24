@@ -1,12 +1,14 @@
 import {
-  miniOne,
-  miniThree,
-  miniTwo,
-  orangSakit,
-  sakitPerut,
-  kakiPatah,
-  sakitKepala,
-  darahRendah,
+  growth,
+  saving,
+  service,
+  targetAudience,
+  customerBehavior,
+  aiReplace,
+  keywodPlanner,
+  customerEngadment,
+  mediaPlanning,
+
 } from "../asset";
 
 export const navLink = [
@@ -34,50 +36,50 @@ export const navLink = [
 
 export const features = [
   {
-    image: miniOne,
-    title: "Get The Right A Doctor",
-    desc: "Choose the best doctor form around the world ",
+    image: growth,
+    title: "Pertumbuhan Bisnis",
+    desc: "Dengan menjangkau audiens yang lebih luas, website dapat membantu meningkatkan penjualan dan pertumbuhan bisnis kamu.",
   },
   {
-    image: miniTwo,
-    title: "Get The Right A Doctor",
-    desc: "Choose the best doctor form around the world ",
+    image: saving,
+    title: "Menghemat Biaya",
+    desc: "Website dapat mengurangi biaya pemasaran, cetakan, dan distribusi brosur atau materi promosi fisik.",
   },
   {
-    image: miniThree,
-    title: "Get The Right A Doctor",
-    desc: "Choose the best doctor form around the world ",
+    image: service,
+    title: "Dukungan 24/7",
+    desc: "Website aktif sepanjang waktu, memberikan akses kepada pelanggan untuk mencari informasi atau mendapatkan dukungan kapan saja.",
   },
 ];
 export const sakit = [
   {
-    image: orangSakit,
-    title: "Flue",
-    desc: "panas, demam",
+    image: targetAudience,
+    title: "Tips Sederhana Menentukan Target Audience",
+    category: "Digital Marketing",
   },
   {
-    image: sakitPerut,
-    title: "sakit perut",
-    desc: "perut mual, muntah-muntah",
+    image: customerBehavior,
+    title: "Pengertian Customer Behavior dan Manfaatnya Bagi Bisnis",
+    category: "Bisnis",
   },
   {
-    image: kakiPatah,
-    title: "patah Kaki",
-    desc: "sakit pada pergelangan kaki",
+    image: aiReplace,
+    title: "Profesi yang Akan Digantikan AI",
+    category: "Teknologi",
   },
   {
-    image: sakitKepala,
-    title: "Flue",
-    desc: "Pusing, migran",
+    image: keywodPlanner,
+    title: "Cara Menganalisis Kata Kunci dengan Google Keyword Planner",
+    category: "Tips",
   },
   {
-    image: darahRendah,
-    title: "darah rendah",
-    desc: "migran ketika baru bangun, badan serasa mau pingsan , mata kabur",
+    image: customerEngadment,
+    title: "Kenali Strategi Membangun Customer Engagement yang Tepat dalam Bisnis",
+    category: "Tips",
   },
   {
-    image: orangSakit,
-    title: "Flue",
-    desc: "panas, demam",
+    image: mediaPlanning,
+    title: "Media Planning & Media Buying - Merancang Kesuksesan Kampanye Digital",
+    category: "Digimatl Marketing",
   },
 ];
