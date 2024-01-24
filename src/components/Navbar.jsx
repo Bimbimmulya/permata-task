@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { navLink } from "../data/dummy";
 import logo from "../asset/logo.svg";
 import { Link } from "react-scroll";
@@ -6,8 +6,26 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
   return (
-      <div className="flex justify-between items-center px-5 lg:px px-[72] h-[80px] w-full fixed top-0">
+      <div className={`${
+        scroll ? "bg-[#FFE8E5] lg:-top-20 h-[60px] " : "top-0"
+      } flex justify-between items-center px-5 lg:px px-[72] h-[80px] w-full fixed`}>
         <div className="w-[103px] h-[25px]">
             <img className="w-full h-fulll object-contain" src={logo} alt="Ruang Engineer" />
         </div>
