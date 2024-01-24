@@ -2,7 +2,7 @@ import React from "react";
 import { apps, googlePlay,mainImg } from "../asset";
 const Footer = () => {
   return (
-    <div className="flex flex-col h-auto my-8 lg:my-0 md:flex-row justify-center gap-3  items-center px-5 lg:px-[72px]">
+    <div id="Download" className="flex flex-col h-auto my-8 lg:my-0 md:flex-row justify-center gap-3 py-9 items-center px-5 lg:px-[72px]">
       <div className="h-[400px] w-full md:flex-1">
         <img src={mainImg} alt="" className="w-full h-full object-contain" />
       </div>

@@ -2,12 +2,6 @@ import {
   growth,
   saving,
   service,
-  targetAudience,
-  customerBehavior,
-  aiReplace,
-  keywodPlanner,
-  customerEngadment,
-  mediaPlanning,
 
 } from "../asset";
 
@@ -17,7 +11,7 @@ export const navLink = [
     name: "Home",
   },
   {
-    id: "Value",
+    id: "Values",
     name: "Value",
   },
   {
@@ -25,12 +19,12 @@ export const navLink = [
     name: "Blog",
   },
   {
-    id: "Contact",
-    name: "Contact",
+    id: "Download",
+    name: "Download App",
   },
 ];
 
-export const features = [
+export const values = [
   {
     image: growth,
     title: "Pertumbuhan Bisnis",
@@ -45,37 +39,5 @@ export const features = [
     image: service,
     title: "Dukungan 24/7",
     desc: "Website aktif sepanjang waktu, memberikan akses kepada pelanggan untuk mencari informasi atau mendapatkan dukungan kapan saja.",
-  },
-];
-export const sakit = [
-  {
-    image: targetAudience,
-    title: "Tips Sederhana Menentukan Target Audience",
-    category: "Digital Marketing",
-  },
-  {
-    image: customerBehavior,
-    title: "Pengertian Customer Behavior dan Manfaatnya Bagi Bisnis",
-    category: "Bisnis",
-  },
-  {
-    image: aiReplace,
-    title: "Profesi yang Akan Digantikan AI",
-    category: "Teknologi",
-  },
-  {
-    image: keywodPlanner,
-    title: "Cara Menganalisis Kata Kunci dengan Google Keyword Planner",
-    category: "Tips",
-  },
-  {
-    image: customerEngadment,
-    title: "Kenali Strategi Membangun Customer Engagement yang Tepat dalam Bisnis",
-    category: "Tips",
-  },
-  {
-    image: mediaPlanning,
-    title: "Media Planning & Media Buying - Merancang Kesuksesan Kampanye Digital",
-    category: "Digimatl Marketing",
   },
 ];

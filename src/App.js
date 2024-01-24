@@ -1,8 +1,8 @@
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Blog from "./components/Blog";
 import OurValue from "./components/OurValue";
+import NewsService from "./services/news-service";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
      <Navbar/> 
      <Home/>
      <OurValue/>
-     <Blog/>
+     <NewsService />
      <Footer/>
     </div>
   );

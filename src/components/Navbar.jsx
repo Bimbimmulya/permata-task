@@ -33,7 +33,7 @@ const Navbar = () => {
             <li className="flex gap-x-4">
                 {navLink.map((item) => {
                     return (
-                    <Link key={item.id} className="hover:text-orange text-sm md:text-md cursor-pointer" 
+                    <Link key={item.id} className="hover:text-text text-sm md:text-md cursor-pointer" 
                     to={item.id} >{item.id}</Link>
                     )
                 })}
