@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-import { ruangEngineer } from "../asset";
-const Navbars = () => {
+import { ruangEngineer } from "../../../asset";
+
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
       <img className="nav-logo" src={ruangEngineer} alt="Ruang Engineer" />
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/service">Service</a>
-        <a href="/contact">Contact</a>
+        <a href="/">Home</a>
+        <a href="/values">Values</a>
+        <a href="/blog">Blog</a>
+        <a href="/download">Download</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
@@ -21,4 +22,4 @@ const Navbars = () => {
   );
 };
 
-export default Navbars;
+export default Navbar;

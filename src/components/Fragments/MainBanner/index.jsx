@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const MainBanner = () => {
   return (
     <div id="home" className="main-banner">
       <div className="wrap-banner">
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MainBanner;

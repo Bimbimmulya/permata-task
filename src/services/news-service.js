@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import NewsList from '../components/Blog';
 import Slider from 'react-slick';
+import NewsList from '../components/Fragments/NewsList';
 
 const NewsService = () => {
 

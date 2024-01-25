@@ -1,5 +1,6 @@
 import React from "react";
-import { values } from "../data/dummy";
+import { values } from "../../../data/dummy";
+
 const OurValue = () => {
   return (
     <div id="Values" className="wrap-values">

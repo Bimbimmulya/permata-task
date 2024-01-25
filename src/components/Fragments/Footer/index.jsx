@@ -1,5 +1,6 @@
 import React from "react";
-import { apps, googlePlay,mainImg } from "../asset";
+import { apps, googlePlay,mainImg } from "../../../asset";
+
 const Footer = () => {
   return (
     <div id="Download" className="wrap-footer">
