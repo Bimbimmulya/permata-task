@@ -48,8 +48,7 @@ const NewsService = () => {
             
             // console.log(response);
             
-            
-            setArticles(response.data.articles)
+            setArticles(response.data.articles.slice(0, 10))
         }
 
         getArticles()
