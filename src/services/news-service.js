@@ -59,19 +59,17 @@ const NewsService = () => {
             <h1 className='text-[40px] text-text font-semibold'>Our Blog</h1>
             <p className='text-gray-400'>Temukan artikel terkini seputar mobil listrik, teknologi mutakhir, dan inovasi energi berkelanjutan dari Tesla. Dapatkan informasi singkat mengenai perkembangan terdepan perusahaan ini.</p>
          </div>
-            <Slider {...settings}>
-                {articles.map((item) => (
-                <div >
-                    <NewsList 
-                    key={item}
-                    title={item.title}
-                    publishedAt={item.publishedAt}
-                    url={item.url}
-                    urlToImage={item.urlToImage}
-                    />
-                </div>
-                ))}
-            </Slider>
+         {articles.map((item) => (
+    <div key={item.url}>
+        <NewsList 
+            title={item.title}
+            publishedAt={item.publishedAt}
+            url={item.url}
+            urlToImage={item.urlToImage}
+        />
+    </div>
+))}
+
         </>
 
     

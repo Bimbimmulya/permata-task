@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
       <div className={`${
-        scroll ? "bg-[#FFE8E5] lg:-top-20 h-[60px] " : "top-0"
+        scroll ? "bg-blue lg:-top-20 h-[60px] " : "top-0"
       } flex justify-between items-center px-5 lg:px px-[72] h-[80px] w-full fixed`}>
         <div className="w-[103px] h-[25px]">
             <img className="w-full h-fulll object-contain" src={ruangEngineer} alt="Ruang Engineer" />
