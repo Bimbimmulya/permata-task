@@ -49,7 +49,7 @@ const NewsService = () => {
             // console.log(response);
             
             
-            setArticles(response.data.articles.slice(0, 10))
+            setArticles(response.data.articles)
         }
 
         getArticles()
