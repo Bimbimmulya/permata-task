@@ -2,21 +2,21 @@ import React from "react";
 import { apps, googlePlay,mainImg } from "../asset";
 const Footer = () => {
   return (
-    <div id="Download" className="flex flex-col h-auto my-8 lg:my-0 md:flex-row justify-center gap-3 py-9 items-center px-5 lg:px-[72px]">
-      <div className="h-[400px] w-full md:flex-1">
-        <img src={mainImg} alt="" className="w-full h-full object-contain" />
+    <div id="Download" className="wrap-footer">
+      <div className="wrap-img-footer">
+        <img src={mainImg} alt="Ruang Engineer" />
       </div>
-      <div className="flex flex-col gap-3 md:flex-1">
-        <h1 className="text-[16px] font-bold text-orange">
+      <div className="wrap-cta-footer">
+        <h1 className="cta-konsultasi">
         Dapatkan Konsultasi Gratis
         </h1>
-        <h1 className="text-2xl font-bold">Dwonload App</h1>
-        <p className="text-text text-[14px]">
+        <h1 className="cta-download">Dwonload App</h1>
+        <p className="cta-helpdesk">
             Kami siap siaga menjadi solusi Bisnis Anda.
         </p>
-        <div className="w-full h-[50px] lg:h-[70px] flex ">
-          <img src={apps} alt="" className="w-[300px] h-full " />
-          <img src={googlePlay} alt="" className="w-[300px] h-full " />
+        <div className="wrap-cta-img">
+          <img src={apps} alt="" className="img-apps" />
+          <img src={googlePlay} alt="" className="img-gPlay" />
         </div>
       </div>
     </div>

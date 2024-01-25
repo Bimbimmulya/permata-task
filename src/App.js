@@ -1,18 +1,18 @@
-import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Navbars from "./components/Navbars";
 import OurValue from "./components/OurValue";
 import NewsService from "./services/news-service";
+import Footer from "./components/Footer";
 
 
 function App() {
   return (
     <div className="overflow-hidden"> 
-     <Navbar/> 
+     <Navbars />
      <Home/>
-     <OurValue/>
+     <OurValue/> 
      <NewsService />
-     <Footer/>
+     <Footer/> 
     </div>
   );
 }
